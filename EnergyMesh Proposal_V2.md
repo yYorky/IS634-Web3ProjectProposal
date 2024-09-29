@@ -91,8 +91,8 @@ Detailed technical specifications are available in [Appendices A](#appendix-a-de
 
 ```mermaid
 graph TD;
-    A[Blockchain Core] --> B[Custom-designed Proof-of-Stake (PoS) consensus mechanism]
-    A --> C[Built on a modified Ethereum codebase for EVM compatibility]
+    A[Blockchain Core] --> B[Custom designed PoS consensus mechanism]
+    A --> C[Modified Ethereum codebase for EVM compatibility]
     A --> D[Block time: 5 seconds]
     A --> E[Smart Contract Language: Solidity]
     A --> F[Block structure]
@@ -101,7 +101,7 @@ graph TD;
     A --> I[State management]
 
     F --> F1[Block header: Previous block hash, timestamp, block number, state root, transaction root, receipt root]
-    F --> F2[Block body: List of transactions, uncle blocks (if any)]
+    F --> F2[Block body: List of transactions, uncle blocks]
     F --> F3[Maximum block size: 8 MB]
 
     G --> G1[Peer-to-peer network using libp2p]
@@ -144,19 +144,12 @@ graph TD;
     R --> R3[Time-series database (InfluxDB)]
 
     A --> S[AI and Machine Learning]
-    S --> S1[TensorFlow-based demand forecasting models]
+    S --> S1[TensorFlow based demand forecasting models]
     S --> S2[Reinforcement learning for grid optimization]
     S --> S3[Edge AI for local smart meter data processing]
 
     A --> T[Security Measures]
-    T --> T1[Multi-signature wallets for critical operations]
-    T --> T2[Formal verification of smart contracts]
-    T --> T3[Regular third-party security audits]
-
-    A --> U[User Interface]
-    U --> U1[React-based web application]
-    U --> U2[Native mobile apps for iOS and Android]
-    U --> U3[Voice-activated AI assistant for hands-free interaction]
+    T --> T1[Multi-signa
 ```
 
 ### 3.3 Tokenomics
@@ -434,8 +427,8 @@ To address these points, I would modify Appendix A by expanding the "Blockchain 
 
 ```mermaid
 graph TD;
-    A[Blockchain Core] --> B[Custom-designed Proof-of-Stake (PoS) consensus mechanism]
-    A --> C[Built on a modified Ethereum codebase for EVM compatibility]
+    A[Blockchain Core] --> B[Custom designed PoS consensus mechanism]
+    A --> C[Modified Ethereum codebase for EVM compatibility]
     A --> D[Block time: 5 seconds]
     A --> E[Smart Contract Language: Solidity]
     A --> F[Block structure]
@@ -444,7 +437,7 @@ graph TD;
     A --> I[State management]
 
     F --> F1[Block header: Previous block hash, timestamp, block number, state root, transaction root, receipt root]
-    F --> F2[Block body: List of transactions, uncle blocks (if any)]
+    F --> F2[Block body: List of transactions, uncle blocks]
     F --> F3[Maximum block size: 8 MB]
 
     G --> G1[Peer-to-peer network using libp2p]
@@ -487,7 +480,7 @@ graph TD;
     R --> R3[Time-series database (InfluxDB)]
 
     A --> S[AI and Machine Learning]
-    S --> S1[TensorFlow-based demand forecasting models]
+    S --> S1[TensorFlow based demand forecasting models]
     S --> S2[Reinforcement learning for grid optimization]
     S --> S3[Edge AI for local smart meter data processing]
 
@@ -497,9 +490,9 @@ graph TD;
     T --> T3[Regular third-party security audits]
 
     A --> U[User Interface]
-    U --> U1[React-based web application]
+    U --> U1[React based web application]
     U --> U2[Native mobile apps for iOS and Android]
-    U --> U3[Voice-activated AI assistant for hands-free interaction]
+    U --> U3[Voice activated AI assistant for hands-free interaction]
 ```
 
 1. **Blockchain Core**
