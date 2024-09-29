@@ -464,8 +464,6 @@ As we move forward, continued engagement with stakeholders, ongoing refinement o
 
 ## 8. Appendices
 
-To address these points, I would modify Appendix A by expanding the "Blockchain Core" section and adding a new section specifically for the consensus mechanism. Here's how I would restructure and enhance the content:
-
 ### Appendix A: Detailed Technology Stack Specifications
 
 1. **Blockchain Core**
