@@ -89,6 +89,9 @@ EnergyMesh utilizes a custom-designed, energy-efficient blockchain with a Proof-
 
 Detailed technical specifications are available in [Appendices A](#appendix-a-detailed-technology-stack-specifications)
 
+Absolutely! Breaking the chart into smaller, more focused diagrams can make it easier to read and understand. Here’s how you can separate the content into multiple smaller charts based on their categories:
+
+#### A. Blockchain Core Components
 ```mermaid
 graph TD;
     A[Blockchain Core] --> B[Custom PoS Consensus Mechanism]
@@ -107,8 +110,12 @@ graph TD;
     G --> G1[P2P Network using Libp2p]
     G --> G2[Gossip Protocol for Block Propagation]
     G --> G3[Sharding: 10 Shards at Launch]
+```
 
-    B --> J[Validator Selection]
+#### B. Consensus Mechanism
+```mermaid
+graph TD;
+    B[Custom PoS Consensus Mechanism] --> J[Validator Selection]
     J --> J1[Minimum Stake: 32,000 EB]
     J --> J2[Dynamic Validator Set: Up to 1,000 Validators]
     J --> J3[Randomized Selection]
@@ -127,33 +134,57 @@ graph TD;
 
     B --> N[Validator Incentives]
     B --> O[Governance Participation]
+```
 
-    A --> P[Off-Chain Scaling Solutions]
+#### C. Off-Chain Scaling Solutions
+```mermaid
+graph TD;
+    A[Blockchain Core] --> P[Off-Chain Scaling Solutions]
     P --> P1[State Channels for Trading]
     P --> P2[ZK-Rollups for Data Compression]
     P --> P3[Plasma Chains for Specific Use Cases]
+```
 
-    A --> Q[Grid Integration]
+#### D. Grid Integration
+```mermaid
+graph TD;
+    A[Blockchain Core] --> Q[Grid Integration]
     Q --> Q1[EnergyMesh Grid Adapter]
     Q --> Q2[REST API for Integrations]
     Q --> Q3[Real-Time Data System]
+```
 
-    A --> R[Data Management]
+#### E. Data Management
+```mermaid
+graph TD;
+    A[Blockchain Core] --> R[Data Management]
     R --> R1[Distributed Storage with IPFS]
     R --> R2[Chainlink Oracles for Data Feeds]
     R --> R3[Time-Series Database: InfluxDB]
+```
 
-    A --> S[AI and Machine Learning]
+#### F. AI and Machine Learning
+```mermaid
+graph TD;
+    A[Blockchain Core] --> S[AI and Machine Learning]
     S --> S1[TensorFlow Demand Forecasting]
     S --> S2[Reinforcement Learning for Optimization]
     S --> S3[Edge AI for Smart Meter Processing]
+```
 
-    A --> T[Security Measures]
+#### G. Security Measures
+```mermaid
+graph TD;
+    A[Blockchain Core] --> T[Security Measures]
     T --> T1[Multi-Signature Wallets]
     T --> T2[Formal Verification of Contracts]
     T --> T3[Regular Security Audits]
+```
 
-    A --> U[User Interface]
+#### H. User Interface
+```mermaid
+graph TD;
+    A[Blockchain Core] --> U[User Interface]
     U --> U1[React Web Application]
     U --> U2[Native Mobile Apps]
     U --> U3[Voice Activated AI Assistant]
@@ -432,6 +463,7 @@ To address these points, I would modify Appendix A by expanding the "Blockchain 
 
 ### Appendix A: Detailed Technology Stack Specifications
 
+1. **Blockchain Core**
 ```mermaid
 graph TD;
     A[Blockchain Core] --> B[Custom PoS Consensus Mechanism]
@@ -450,59 +482,7 @@ graph TD;
     G --> G1[P2P Network using Libp2p]
     G --> G2[Gossip Protocol for Block Propagation]
     G --> G3[Sharding: 10 Shards at Launch]
-
-    B --> J[Validator Selection]
-    J --> J1[Minimum Stake: 32,000 EB]
-    J --> J2[Dynamic Validator Set: Up to 1,000 Validators]
-    J --> J3[Randomized Selection]
-
-    B --> K[Block Production]
-    K --> K1[Round-Robin Block Production]
-    K --> K2[Block Finality: 2/3 Validators Confirm]
-
-    B --> L[Rewards]
-    L --> L1[Block Reward: 2 EB]
-    L --> L2[Transaction Fees: Distributed to Validators]
-
-    B --> M[Slashing Conditions]
-    M --> M1[Offline Penalty: 0.1% of Stake]
-    M --> M2[Equivocation Penalty: 5% Stake Slashed]
-
-    B --> N[Validator Incentives]
-    B --> O[Governance Participation]
-
-    A --> P[Off-Chain Scaling Solutions]
-    P --> P1[State Channels for Trading]
-    P --> P2[ZK-Rollups for Data Compression]
-    P --> P3[Plasma Chains for Specific Use Cases]
-
-    A --> Q[Grid Integration]
-    Q --> Q1[EnergyMesh Grid Adapter]
-    Q --> Q2[REST API for Integrations]
-    Q --> Q3[Real-Time Data System]
-
-    A --> R[Data Management]
-    R --> R1[Distributed Storage with IPFS]
-    R --> R2[Chainlink Oracles for Data Feeds]
-    R --> R3[Time-Series Database: InfluxDB]
-
-    A --> S[AI and Machine Learning]
-    S --> S1[TensorFlow Demand Forecasting]
-    S --> S2[Reinforcement Learning for Optimization]
-    S --> S3[Edge AI for Smart Meter Processing]
-
-    A --> T[Security Measures]
-    T --> T1[Multi-Signature Wallets]
-    T --> T2[Formal Verification of Contracts]
-    T --> T3[Regular Security Audits]
-
-    A --> U[User Interface]
-    U --> U1[React Web Application]
-    U --> U2[Native Mobile Apps]
-    U --> U3[Voice Activated AI Assistant]
 ```
-
-1. **Blockchain Core**
    - **Custom-designed Proof-of-Stake (PoS) consensus mechanism**: 
      - PoS is recognized for its energy efficiency compared to Proof-of-Work (PoW), as it eliminates the need for energy-intensive mining processes. Research indicates that PoS algorithms can significantly reduce energy consumption while maintaining security and decentralization (Gemini) [1]. This makes PoS particularly suitable for an energy-focused blockchain project.
    - **Built on a modified Ethereum codebase for EVM compatibility**: 
@@ -523,6 +503,31 @@ graph TD;
    - **State management**: Merkle Patricia Trie for efficient state updates and proof generation
 
 2. **Consensus Mechanism: EnergyMesh Proof-of-Stake (EMPoS)**
+
+```mermaid
+graph TD;
+    B[Custom PoS Consensus Mechanism] --> J[Validator Selection]
+    J --> J1[Minimum Stake: 32,000 EB]
+    J --> J2[Dynamic Validator Set: Up to 1,000 Validators]
+    J --> J3[Randomized Selection]
+
+    B --> K[Block Production]
+    K --> K1[Round-Robin Block Production]
+    K --> K2[Block Finality: 2/3 Validators Confirm]
+
+    B --> L[Rewards]
+    L --> L1[Block Reward: 2 EB]
+    L --> L2[Transaction Fees: Distributed to Validators]
+
+    B --> M[Slashing Conditions]
+    M --> M1[Offline Penalty: 0.1% of Stake]
+    M --> M2[Equivocation Penalty: 5% Stake Slashed]
+
+    B --> N[Validator Incentives]
+    B --> O[Governance Participation]
+```
+
+
    - **Validator selection**:
      - Minimum stake requirement: 32,000 EB (EnergyBits) or equivalent MeshCoin value
      - Dynamic validator set: Up to 1000 active validators, rotated every epoch (6.4 hours)
@@ -547,6 +552,14 @@ graph TD;
      - Voting power proportional to stake amount
 
 3. **Off-chain Scaling Solutions**
+
+```mermaid
+graph TD;
+    A[Blockchain Core] --> P[Off-Chain Scaling Solutions]
+    P --> P1[State Channels for Trading]
+    P --> P2[ZK-Rollups for Data Compression]
+    P --> P3[Plasma Chains for Specific Use Cases]
+```
    - **State Channels for high-frequency trading pairs**: 
      - State channels allow off-chain transactions to occur rapidly without congesting the main blockchain. This is particularly beneficial for energy trading, where speed is crucial. Studies indicate that state channels can handle thousands of transactions per second while maintaining security (Gemini) [1].
    - **ZK-rollups for data compression and privacy**: 
@@ -555,6 +568,15 @@ graph TD;
      - Plasma chains allow for the creation of child chains that can operate independently while still being anchored to the main chain. This is ideal for localized applications like microgrids, where specific functionalities can be optimized without burdening the main network (Ethereum Foundation) [2].
 
 4. **Grid Integration**
+
+```mermaid
+graph TD;
+    A[Blockchain Core] --> Q[Grid Integration]
+    Q --> Q1[EnergyMesh Grid Adapter]
+    Q --> Q2[REST API for Integrations]
+    Q --> Q3[Real-Time Data System]
+```
+
    - **EnergyMesh Grid Adapter (EGA) supporting IEC 61850, DNP3, and Modbus protocols**: 
      - These protocols are widely used in energy management systems, ensuring compatibility with existing infrastructure. Research indicates that integrating these standards can facilitate smoother communication between blockchain solutions and traditional grid systems (IEEE) [4].
    - **REST API for third-party integrations**: 
@@ -563,6 +585,15 @@ graph TD;
      - Apache Kafka is known for its high throughput and low latency in handling real-time data streams, making it suitable for energy applications where timely information is critical (Confluent) [6].
 
 5. **Data Management**
+
+```mermaid
+graph TD;
+    A[Blockchain Core] --> R[Data Management]
+    R --> R1[Distributed Storage with IPFS]
+    R --> R2[Chainlink Oracles for Data Feeds]
+    R --> R3[Time-Series Database: InfluxDB]
+```
+
    - **Distributed storage using IPFS (InterPlanetary File System)**: 
      - IPFS provides a decentralized storage solution that enhances data availability and resilience. Research shows that using IPFS can significantly improve the efficiency of data retrieval processes in blockchain applications (IPFS Documentation) [7].
    - **Chainlink oracles for reliable external data feeds**: 
@@ -571,6 +602,15 @@ graph TD;
      - InfluxDB is optimized for handling time-series data, making it ideal for monitoring energy consumption patterns over time. Studies indicate that using time-series databases can enhance analytical capabilities in energy management systems (InfluxData) [9].
 
 6. **AI and Machine Learning**
+
+```mermaid
+graph TD;
+    A[Blockchain Core] --> S[AI and Machine Learning]
+    S --> S1[TensorFlow Demand Forecasting]
+    S --> S2[Reinforcement Learning for Optimization]
+    S --> S3[Edge AI for Smart Meter Processing]
+```
+
    - **TensorFlow-based demand forecasting models**: 
      - TensorFlow is a widely adopted framework for machine learning applications. Utilizing it for demand forecasting can lead to more accurate predictions, optimizing energy distribution and reducing costs (Google AI Blog) [10].
    - **Reinforcement learning for grid optimization**: 
@@ -579,6 +619,14 @@ graph TD;
      - Implementing edge AI allows real-time processing of data at the source, reducing latency and bandwidth usage while enhancing responsiveness in energy management systems (Gartner) [12].
 
 7. **Security Measures**
+```mermaid
+graph TD;
+    A[Blockchain Core] --> T[Security Measures]
+    T --> T1[Multi-Signature Wallets]
+    T --> T2[Formal Verification of Contracts]
+    T --> T3[Regular Security Audits]
+```
+
    - **Multi-signature wallets for critical operations**: 
      - Multi-signature wallets enhance security by requiring multiple approvals before executing transactions. This reduces the risk of unauthorized access and fraud (Hacken) [3].
    - **Formal verification of smart contracts**: 
@@ -587,6 +635,14 @@ graph TD;
      - Engaging third-party auditors helps identify potential vulnerabilities and ensures compliance with best practices in security management (Hacken) [3].
 
 8. **User Interface**
+```mermaid
+graph TD;
+    A[Blockchain Core] --> U[User Interface]
+    U --> U1[React Web Application]
+    U --> U2[Native Mobile Apps]
+    U --> U3[Voice Activated AI Assistant]
+```
+
    - **React-based web application**: 
      - React is a popular framework known for its performance and user-friendly design capabilities. Using React allows EnergyMesh to create responsive interfaces that enhance user experience (React Documentation) [14].
    - **Native mobile apps for iOS and Android**: 
