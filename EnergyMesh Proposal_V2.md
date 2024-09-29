@@ -59,28 +59,22 @@ As more intermittent renewable sources are added to the energy mix, grid instabi
 ### 3.1 Core Features
 
 1. **Peer-to-Peer (P2P) Energy Trading**
-   - **Benefit**: Enables direct transactions between producers and consumers, reducing reliance on intermediaries.
-   - **Research**: P2P trading through blockchain increases market efficiency and reduces costs [5].
+   - **Benefit**: Enables direct transactions between producers and consumers, reducing reliance on intermediaries. P2P trading through blockchain increases market efficiency and reduces costs [5].
 
 2. **Real-Time Tracking**
-   - **Benefit**: Provides instant visibility into energy production and consumption.
-   - **Research**: Blockchain allows for real-time energy flow tracking, optimizing distribution and balancing supply-demand [2].
+   - **Benefit**: Provides instant visibility into energy production and consumption. Blockchain allows for real-time energy flow tracking, optimizing distribution and balancing supply-demand [2].
 
 3. **Smart Contract Automation**
-   - **Benefit**: Automates transactions based on predefined conditions, improving efficiency.
-   - **Research**: Smart contracts minimize manual intervention, enabling faster trades [2][4].
+   - **Benefit**: Automates transactions based on predefined conditions, improving efficiency. Smart contracts minimize manual intervention, enabling faster trades [2][4].
 
 4. **Grid Integration**
-   - **Benefit**: Seamlessly integrates distributed energy resources (DERs) like solar and wind into the grid.
-   - **Research**: Blockchain supports reliable integration of DERs, enhancing grid resilience [2].
+   - **Benefit**: Seamlessly integrates distributed energy resources (DERs) like solar and wind into the grid. Blockchain supports reliable integration of DERs, enhancing grid resilience [2].
 
 5. **Renewable Energy Support**
-   - **Benefit**: Simplifies the incorporation of renewable sources into the energy system.
-   - **Research**: Blockchain improves renewable energy certificate (REC) trading and boosts investment in clean energy [2].
+   - **Benefit**: Simplifies the incorporation of renewable sources into the energy system. Blockchain improves renewable energy certificate (REC) trading and boosts investment in clean energy [2].
 
 6. **AI-Driven Predictions**
-   - **Benefit**: Enhances load balancing and demand forecasting.
-   - **Research**: Combining AI with blockchain can reduce outages by more accurately predicting demand [1].
+   - **Benefit**: Enhances load balancing and demand forecasting. Combining AI with blockchain can reduce outages by more accurately predicting demand [1].
 
 #### Citations:
 [1] [GitHub](https://github.com/desenk/energy-smart-contract)
@@ -93,7 +87,7 @@ As more intermittent renewable sources are added to the energy mix, grid instabi
 
 EnergyMesh utilizes a custom-designed, energy-efficient blockchain with a Proof-of-Stake consensus mechanism. The platform incorporates smart contracts, off-chain scaling solutions, and AI-driven predictive models to ensure scalability and efficiency.
 
-(Detailed technical specifications are available in Appendix A)
+Detailed technical specifications are available in [Appendices A](#appendix-a-detailed-technology-stack-specifications)
 
 ### 3.3 Tokenomics
 
@@ -183,9 +177,9 @@ Forming strategic partnerships is crucial for gaining credibility and access to 
 Education is vital for overcoming skepticism about new technologies. Workshops and online learning initiatives can help stakeholders understand the benefits of blockchain in energy systems. The International Council on Large Electric Systems (CIGRE) emphasizes that educational outreach is essential for fostering acceptance of blockchain solutions among industry professionals and regulators alike [3]. Hackathons can also stimulate innovation by encouraging developers to create applications that leverage blockchain technology for energy management.
 
 #### Citations:
-[1] https://cryptoslate.com/ethereum-core-devs-agree-to-split-pectra-upgrade-into-multi-phase-rollout/
-[2] https://www.ifpenergiesnouvelles.com/article/accelerating-energy-transition-blockchain-technology
-[3] https://www.power-technology.com/features/blockchain-to-revolutionise-power-industry/
+[1] [Crptoslate](https://cryptoslate.com/ethereum-core-devs-agree-to-split-pectra-upgrade-into-multi-phase-rollout/)
+[2] [ifpenergiesnouvelles](https://www.ifpenergiesnouvelles.com/article/accelerating-energy-transition-blockchain-technology)
+[3] [power-technology](https://www.power-technology.com/features/blockchain-to-revolutionise-power-industry/)
 
 ## 4. Scalability and Technical Feasibility
 
@@ -216,11 +210,11 @@ EnergyMesh employs a multi-layered approach to ensure scalability:
 - **Community-Led Initiatives**: The UK's emphasis on community-led energy initiatives aligns well with blockchain's decentralized nature. Engaging local stakeholders can enhance acceptance and participation in pilot projects, ensuring that they meet community needs effectively (Energy Networks Association, 2020).
 
 #### Citations:
-[1] https://techcrunch.com/2018/04/14/austin-is-piloting-blockchain-to-improve-homeless-services/
-[2] https://govlaunch.com/governments/austin-tx/projects/austin-tx-is-testing-the-viability-of-a-blockchain-identity-platform-for-homeless-services
-[3] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7303832/
+[1] [techcrunch](https://techcrunch.com/2018/04/14/austin-is-piloting-blockchain-to-improve-homeless-services/)
+[2] [govlaunch](https://govlaunch.com/governments/austin-tx/projects/austin-tx-is-testing-the-viability-of-a-blockchain-identity-platform-for-homeless-services)
+[3] [ncbi](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7303832/)
 
-(Detailed technical specifications and Pilot Proposal are available in Appendix B)
+Detailed technical specifications and Pilot Proposal are available in [Appendices B](#appendix-b-scalability-and-technical-feasibility-details)
 
 ## 5. Regulatory Compliance Strategy
 
@@ -257,11 +251,11 @@ A well-structured compliance strategy can streamline operations by establishing 
 Regulatory frameworks often aim to promote sustainable practices within industries. Compliance with environmental regulations ensures that energy projects align with broader sustainability goals, which is increasingly important to consumers and investors alike. Blockchain technology can facilitate transparency in renewable energy sourcing and trading, helping companies meet regulatory requirements while also appealing to environmentally conscious stakeholders [4].
 
 #### Citations:
-[1] https://www.ea.govt.nz/documents/887/Compliance_strategy.pdf
-[2] https://www.nopsema.gov.au/about/compliance-strategy
-[3] https://www.ul.com/software/introducing-global-compliance-management-gcm
-[4] https://www.power-technology.com/features/blockchain-to-revolutionise-power-industry/
-[5] https://www2.deloitte.com/us/en/pages/regulatory/articles/compliance-function-strategy-modernization-evolved.html
+[1] [ea.govt.nz](https://www.ea.govt.nz/documents/887/Compliance_strategy.pdf)
+[2] [nopsema](https://www.nopsema.gov.au/about/compliance-strategy)
+[3] [ul.com](https://www.ul.com/software/introducing-global-compliance-management-gcm)
+[4] [power-technology](https://www.power-technology.com/features/blockchain-to-revolutionise-power-industry/)
+[5] [deloitte](https://www2.deloitte.com/us/en/pages/regulatory/articles/compliance-function-strategy-modernization-evolved.html)
 
 ## 6. Competitive Analysis
 
@@ -299,11 +293,11 @@ Power Ledger has a limited global reach compared to EnergyMesh's phased expansio
 Power Ledger has expressed interest in integrating AI for predictive analytics and market forecasting but currently utilizes basic AI features (Power Ledger Case Study) [1]. EnergyMesh's advanced AI integration suggests a more robust approach to data analytics and operational efficiency. While WePower does not emphasize AI integration as a core feature, it does utilize smart contracts for automating transactions. The extent of AI application appears limited compared to EnergyMesh's advanced integration plans (WePower Review).
 
 #### Citations:
-[1] https://cloud.google.com/customers/power-ledger/
-[2] https://coinbureau.com/review/power-ledger-powr/
-[3] https://www.newsfilecorp.com/release/215723/Powerledger-and-Energie-Steiermark-Launch-the-First-of-Its-Kind-BlockchainEnabled-Energy-Trading-Solution-Across-Austria
-[4] https://www.mongodb.com/solutions/customer-case-studies/powerledger
-[5] https://www.mdpi.com/1424-8220/23/4/1826
+[1] [GoogleCloud](https://cloud.google.com/customers/power-ledger/)
+[2] [coinbureau](https://coinbureau.com/review/power-ledger-powr/)
+[3] [newsfilecorp](https://www.newsfilecorp.com/release/215723/Powerledger-and-Energie-Steiermark-Launch-the-First-of-Its-Kind-BlockchainEnabled-Energy-Trading-Solution-Across-Austria)
+[4] [mongodb](https://www.mongodb.com/solutions/customer-case-studies/powerledger)
+[5] [mdpi](https://www.mdpi.com/1424-8220/23/4/1826)
 
 ## 7. Conclusion
 
@@ -317,7 +311,6 @@ The road ahead will undoubtedly present challenges, particularly in navigating c
 
 As we move forward, continued engagement with stakeholders, ongoing refinement of the platform based on pilot results, and agile adaptation to market needs will be key to EnergyMesh's long-term success and impact on the global energy ecosystem.
 
-[Previous content remains the same]
 
 ## 8. Appendices
 
@@ -403,22 +396,23 @@ As we move forward, continued engagement with stakeholders, ongoing refinement o
    - Q4 2024: Full sharding implementation, 10,000 TPS
    - 2025: Advanced layer-2 and off-chain solutions, aiming for 100,000+ TPS
 
+
 #### Citations for Appendices:
-[1] Gemini. *Proof of Stake vs. Delegated Proof of Stake*. https://www.gemini.com/cryptopedia/proof-of-stake-delegated-pos-dpos
-[2] Ethereum Foundation. *Ethereum 2.0 Overview*. https://ethereum.org/en/eth2/
-[3] Hacken.io. *Types Of Consensus Mechanisms In Blockchain*. https://hacken.io/discover/consensus-mechanisms/
-[4] IEEE Xplore. *Reinforcement Learning Applications in Smart Grids*. https://ieeexplore.ieee.org/document/8407891
-[5] ProgrammableWeb. *What is a REST API?*. https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work
-[6] Confluent. *What is Apache Kafka?*. https://www.confluent.io/what-is-apache-kafka/
-[7] IPFS Documentation. *IPFS Overview*. https://docs.ipfs.io/concepts/what-is-ipfs/
-[8] Chainlink Documentation. *Introduction to Chainlink*. https://docs.chain.link/docs/introduction-to-chainlink/
-[9] InfluxData. *Why Time Series Data Matters*. https://www.influxdata.com/time-series-data/
-[10] Google AI Blog. *TensorFlow Blog*. https://ai.googleblog.com/
-[11] IEEE Xplore. *Reinforcement Learning Applications in Smart Grids*. https://ieeexplore.ieee.org/document/8407891
-[12] Gartner. *Top Trends in Edge Computing*. https://www.gartner.com/en/information-technology/insights/edge-computing
-[13] IEEE Xplore. *Formal Verification of Smart Contracts*. https://ieeexplore.ieee.org/document/8966350
-[14] React Documentation. *Getting Started*. https://reactjs.org/docs/getting-started.html
-[15] Google Developers. *Android Developers*. https://developer.android.com/
-[16] Voicebot.ai. *Voice Technology Trends 2023*. https://voicebot.ai/
-[17] Ethereum Foundation. *Ethereum Sharding FAQs*. https://eth.wiki/sharding/Sharding-FAQs
-[18] MDPI. *Blockchain Scalability: An Appraisal of Solutions*. https://www.mdpi.com/2076-3417/11/8/3372
+1. [Gemini. *Proof of Stake vs. Delegated Proof of Stake*](https://www.gemini.com/cryptopedia/proof-of-stake-delegated-pos-dpos)
+2. [Ethereum Foundation. *Ethereum 2.0 Overview*](https://ethereum.org/en/eth2/)
+3. [Hacken.io. *Types Of Consensus Mechanisms In Blockchain*](https://hacken.io/discover/consensus-mechanisms/)
+4. [IEEE Xplore. *Reinforcement Learning Applications in Smart Grids*](https://ieeexplore.ieee.org/document/8407891)
+5. [ProgrammableWeb. *What is a REST API?*](https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work)
+6. [Confluent. *What is Apache Kafka?*](https://www.confluent.io/what-is-apache-kafka/)
+7. [IPFS Documentation. *IPFS Overview*](https://docs.ipfs.io/concepts/what-is-ipfs/)
+8. [Chainlink Documentation. *Introduction to Chainlink*](https://docs.chain.link/docs/introduction-to-chainlink/)
+9. [InfluxData. *Why Time Series Data Matters*](https://www.influxdata.com/time-series-data/)
+10. [Google AI Blog. *TensorFlow Blog*](https://ai.googleblog.com/)
+11. [IEEE Xplore. *Reinforcement Learning Applications in Smart Grids*](https://ieeexplore.ieee.org/document/8407891)
+12. [Gartner. *Top Trends in Edge Computing*](https://www.gartner.com/en/information-technology/insights/edge-computing)
+13. [IEEE Xplore. *Formal Verification of Smart Contracts*](https://ieeexplore.ieee.org/document/8966350)
+14. [React Documentation. *Getting Started*](https://reactjs.org/docs/getting-started.html)
+15. [Google Developers. *Android Developers*](https://developer.android.com/)
+16. [Voicebot.ai. *Voice Technology Trends 2023*](https://voicebot.ai/)
+17. [Ethereum Foundation. *Ethereum Sharding FAQs*](https://eth.wiki/sharding/Sharding-FAQs)
+18. [MDPI. *Blockchain Scalability: An Appraisal of Solutions*](https://www.mdpi.com/2076-3417/11/8/3372)
