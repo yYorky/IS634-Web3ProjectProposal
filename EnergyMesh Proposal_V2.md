@@ -698,7 +698,6 @@ graph TD;
 17. [Ethereum Foundation. *Ethereum Sharding FAQs*](https://eth.wiki/sharding/Sharding-FAQs)
 18. [MDPI. *Blockchain Scalability: An Appraisal of Solutions*](https://www.mdpi.com/2076-3417/11/8/3372)
 
-Certainly. I'll create an Appendix D that addresses these points A-K in the context of the EnergyMesh project to assess if blockchain is the right solution for this energy trading platform.
 
 ### Appendix C: Blockchain Suitability Assessment for EnergyMesh
 
